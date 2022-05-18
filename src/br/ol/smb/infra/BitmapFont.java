@@ -14,9 +14,9 @@ import javax.imageio.ImageIO;
 public class BitmapFont {
     
     private final String[] fontCharacterOrderLines = {
-        "",
-        "",
-        " !    "
+            "0123456789ABCDEF",
+            "GHIJKLMNOPQRSTUV",
+            "WXYZ@.  -* !    "
     };
     private static final int CHAR_SIZE = 8;
     private final Map<Character, Point> charactersCoordinate = new HashMap<Character, Point>();
